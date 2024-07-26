@@ -86,13 +86,10 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: #2C3E50; /* Cor de Texto */
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #2C3E50, #3498DB);
+  color: white !important;
 }
 
 a {
