@@ -7,10 +7,10 @@ export default function Home() {
       <header>
         <h1>Bem-vindo ao meu portfólio</h1>
       </header>
-      <Fade>
+      <Fade triggerOnce={true}>
         <section >
           <div className="text-center">
-            <img src={'Foto.jpeg'} width={200} className="rounded shadow" />
+            <img src={'Foto2.jpg'} width={200} className="rounded shadow" />
           </div>
           <h2>Sobre Mim</h2>
           <p>
@@ -28,7 +28,7 @@ export default function Home() {
       <section >
         <h2>Meus Projetos</h2>
         <ul className="p-0">
-          <Slide>
+          <Slide triggerOnce={true}>
             <li className="border p-3 rounded shadow mb-4" style={{ listStyle: 'none' }}>
               <div className="col-12">
                 <h3>Rawlinson Rolim advocacia</h3>
@@ -65,7 +65,7 @@ export default function Home() {
             </li>
           </Slide>
 
-          <Slide>
+          <Slide triggerOnce={true}>
             <li className="border p-3 rounded shadow mb-4" style={{ listStyle: 'none' }}>
               <div className="col-12">
                 <h3>Grupo Valor</h3>
@@ -100,7 +100,7 @@ export default function Home() {
             </li>
           </Slide>
 
-          <Slide>
+          <Slide triggerOnce={true}>
             <li className="border p-3 rounded shadow mb-4" style={{ listStyle: 'none' }}>
               <div className="col-12">
                 <h3>Grupo Valor</h3>
@@ -137,7 +137,7 @@ export default function Home() {
             </li>
           </Slide>
 
-          <Slide>
+          <Slide triggerOnce={true}>
             <li className="border p-3 rounded shadow mb-4" style={{ listStyle: 'none' }}>
               <div className="col-12">
                 <h3>RawAccess</h3>
@@ -173,6 +173,9 @@ export default function Home() {
             </li>
           </Slide>
         </ul>
+      </section>
+      <section className="col-12 text-center pt-3">
+        <label>Sistema desenvolvido por Rawlinson Rolim.</label>
       </section>
     </div >
   );
