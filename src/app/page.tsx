@@ -103,9 +103,9 @@ export default function Home() {
           <Slide triggerOnce={true}>
             <li className="border p-3 rounded shadow mb-4" style={{ listStyle: 'none' }}>
               <div className="col-12">
-                <h3>Grupo Valor</h3>
+                <h3>Asset mate</h3>
                 <p>
-                  Site de recursos humanos para cadastro de candidatos, empresas e controle de vagas.
+                  Site de gestão de ativos para empresas.
                 </p>
               </div>
               <div className="col-12 mb-2">
@@ -172,6 +172,112 @@ export default function Home() {
               </div>
             </li>
           </Slide>
+
+          <Slide triggerOnce={true}>
+            <li className="border p-3 rounded shadow mb-4" style={{ listStyle: 'none' }}>
+              <div className="col-12">
+                <h3>Github repository finder</h3>
+                <p>
+                  Site de busca de repositórios aleatório conforme a linguagem de programação selecionada.
+                </p>
+              </div>
+              <div className="col-12 mb-2">
+                <h4>Tecnologias utilizadas</h4>
+                <div className="row">
+                  <ul className="ps-5 col-12 col-md-6 mb-3">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>JQuery</li>
+                    <li>Bootstrap</li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <a target='_blank' className="btn btn-primary me-2" href="https://github.com/rawrolim/github-search">Ver Github</a>
+              </div>
+            </li>
+          </Slide>
+
+          <Slide triggerOnce={true}>
+            <li className="border p-3 rounded shadow mb-4" style={{ listStyle: 'none' }}>
+              <div className="col-12">
+                <h3>API Blog</h3>
+                <p>
+                  API em typescript para gerenciar um blog.
+                </p>
+              </div>
+              <div className="col-12 mb-2">
+                <h4>Tecnologias utilizadas</h4>
+                <div className="row">
+                  <ul className="ps-5 col-12 col-md-6 mb-3">
+                    <li>Typescript</li>
+                    <li>PostgreSQL</li>
+                    <li>Node</li>
+                    <li>Docker</li>
+                    <li>Redis</li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <a target='_blank' className="btn btn-primary me-2" href="https://github.com/rawrolim/API-Blog">Ver Github</a>
+              </div>
+            </li>
+          </Slide>
+
+          <Slide triggerOnce={true}>
+            <li className="border p-3 rounded shadow mb-4" style={{ listStyle: 'none' }}>
+              <div className="col-12">
+                <h3>API shorten links</h3>
+                <p>
+                  API em typescript para encurtar links e gerênciar o acesso a eles.
+                </p>
+              </div>
+              <div className="col-12 mb-2">
+                <h4>Tecnologias utilizadas</h4>
+                <div className="row">
+                  <ul className="ps-5 col-12 col-md-6 mb-3">
+                    <li>Typescript</li>
+                    <li>PostgreSQL</li>
+                    <li>Node</li>
+                    <li>Docker</li>
+                    <li>Redis</li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <a target='_blank' className="btn btn-primary me-2" href="https://github.com/rawrolim/API-Encurtador-de-links">Ver Github</a>
+              </div>
+            </li>
+          </Slide>
+
+          <Slide triggerOnce={true}>
+            <li className="border p-3 rounded shadow mb-4" style={{ listStyle: 'none' }}>
+              <div className="col-12">
+                <h3>API E-commerce</h3>
+                <p>
+                  API em typescript completa para um e-commerce utilizando a plataforma de pagamento stripe para a realização do checkout.
+                </p>
+              </div>
+              <div className="col-12 mb-2">
+                <h4>Tecnologias utilizadas</h4>
+                <div className="row">
+                  <ul className="ps-5 col-12 col-md-6 mb-3">
+                    <li>Typescript</li>
+                    <li>PostgreSQL</li>
+                    <li>Node</li>
+                    <li>Docker</li>
+                    <li>Redis</li>
+                    <li>Stripe</li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <a target='_blank' className="btn btn-primary me-2" href="https://github.com/rawrolim/API-E-commerce">Ver Github</a>
+              </div>
+            </li>
+          </Slide>
+
         </ul>
       </section>
       <section className="col-12 text-center pt-3">
